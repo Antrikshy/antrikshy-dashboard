@@ -1,12 +1,11 @@
 body {
-    margin: 3rem;
     font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
-    font-size: 16px;
+    font-size: 14px;
     color: #444444;
 }
 
 .header {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     border-radius: 10px;
     background-color: #DDDDDD;
 }
@@ -21,6 +20,10 @@ body {
 }
 
 @media (min-width: 600px) { 
+    body {
+        margin: 3rem;
+        font-size: 16px;
+    }
     .data-box {
         padding: 3rem !important;
     }
