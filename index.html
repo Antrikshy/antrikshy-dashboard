@@ -12,16 +12,26 @@
 </head>
 <body>
     <div class="grid wrap">
-        <div class="unit whole header">
+        <div class="unit whole header align-center">
             <h1>Antriksh's Home Dashboard</h1>
         </div>
-        <div class="unit half data-box">
+        <div class="unit half data-box align-center">
             <span class="data-label">Temperature</span><br/>
             <span class="data-value" id="temp-value">No data</span>
         </div>
-        <div class="unit half data-box">
+        <div class="unit half data-box align-center">
             <span class="data-label">Humidity</span><br/>
             <span class="data-value" id="humd-value">No data</span>
+        </div>
+        <div class="unit two-thirds">
+            <h2>What is this?</h2>
+            <p>This is a little pet project I am working on. Currently, 
+            it just displays the current temperature and humidity in my
+            bedroom here in the San Diego area. Data comes from a DHT22
+            sensor hooked up to a Raspberry Pi Model B.</p>
+            <p>This webpage is not hosted on the Pi itself, but on GitHub
+            Pages. Client-side JavaScript queries my Pi and displays the
+            data.</p>
         </div>
     </div>
 </body>

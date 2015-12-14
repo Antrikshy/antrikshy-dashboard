@@ -9,12 +9,10 @@ body {
     margin-bottom: 3rem;
     border-radius: 10px;
     background-color: #DDDDDD;
-    text-align: center;
 }
 
 .data-box {
-    padding: 6rem !important;
-    text-align: center;
+    padding: 4rem !important;
 }
 
 .data-box .data-label {
