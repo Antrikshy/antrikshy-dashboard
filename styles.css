@@ -1,0 +1,27 @@
+body {
+    margin: 3rem;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    font-size: 16px;
+    color: #444444;
+}
+
+.header {
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+.data-box {
+    padding: 6rem !important;
+    text-align: center;
+}
+
+.data-box .data-label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.data-box .data-value {
+    font-size: 4rem;
+}
