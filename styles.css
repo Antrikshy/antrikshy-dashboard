@@ -11,10 +11,6 @@ body {
     background-color: #DDDDDD;
 }
 
-.data-box {
-    padding: 4rem !important;
-}
-
 .data-box .data-label {
     font-size: 2rem;
     font-weight: bold;
@@ -22,4 +18,10 @@ body {
 
 .data-box .data-value {
     font-size: 4rem;
+}
+
+@media (min-width: 600px) { 
+    .data-box {
+        padding: 3rem !important;
+    }
 }

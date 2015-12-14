@@ -7,6 +7,6 @@ $(document).ready(function() {
 });
 
 function displayTempHumd(temp, humd) {
-    $("#temp-value").text(temp + " C");
+    $("#temp-value").text(temp.toFixed(1) + " C");
     $("#humd-value").text(humd + "%");
 }
